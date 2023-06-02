@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gas header {
+    font-size: 19px;
+    text-align: center;
+
+    border: 2px solid;
+    border-color: darkgray;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 0.2rem 4rem;
+    max-width: 40rem;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    
+    
+}
+#gas header a {
+    list-style: none;
+    color: blue;
+}
+#gas main {
+    
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    max-width: 45rem;
+    
+    
+}
+#gas main h1 {
+    font-size: 4.9rem;
+    line-height: 5rem;
+}
+#gas main p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hwb(0 25% 75%);
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.press {
+    padding-top: 5rem;
+    
+
+}
+#gas main button {
+    color:#eee;
+    border: none;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 0.7rem;
+    padding: 0.8rem 1.5rem;
+}
+.lt {
+    color: black;
+    padding-left: 1rem;
+    list-style: none;
+}
+.slikica {
+    position: absolute;
+    
+    left: 10%;
+}
+#gas img {
+    height: 100vh;
+    margin-left: 106vh;
+    
+}
